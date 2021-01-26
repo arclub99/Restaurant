@@ -1,0 +1,666 @@
+
+
+@media only screen and (max-width: 1440px) and (min-width: 769px){
+    section.main-banner .image-wrapper .plate-img{
+        top: 14%;
+        left: 8%;
+    }
+
+    .banner-content {
+        margin-top: 5rem;
+    }
+
+    section.main-banner .banner-content .middle-text h1{
+        width: 50%;
+    }
+
+    section.slider-form{
+        top: 90%;
+    }
+
+    section.slider-form .contact-form{
+        padding: 0.5rem;
+    }
+
+    section.slider-form .main-btn {
+        padding: .5rem 2rem;
+    }
+
+    .box{
+        right: -5%;
+    }
+
+    .right-box{
+        justify-content: flex-start;
+    }
+
+    section.pizza-corner .image-wrapper .smoke-pic{
+        position: absolute;
+        left: 10%;
+        top: 0%;
+    }
+
+    section.restaurant .res-image-wrapper .left-image{
+        width: 30.5rem;
+        clip-path: polygon(0px 0px, 488px 0px, 315px 440px, 0px 440px);
+    }
+
+    section.restaurant .res-image-wrapper .left-image img{
+        width: 30.625rem;
+    }
+
+    .order-now-btn{
+        width: 30%;
+        padding: .5rem;
+        font-size: 1rem;
+    }
+
+    section.restaurant .res-content .heading{
+        font-size: 3.5rem;
+    }
+
+    .content-wrap .first-heading{
+        font-size: 3rem;
+    }
+
+    .content-wrap .second-heading{
+        font-size: 3rem;
+    }
+
+    .left-site-wrapper {
+        margin-top: 2rem;
+    }
+
+    .bike-phn-sec {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .bike-img-sec{
+        top: -9rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    /* .header-appear{
+        background: transparent;
+        box-shadow: none;
+    } */
+
+    .logo img {
+        width: 50px;
+        margin-top: .5rem;
+    }
+
+    header a.menubar{
+        font-size: 15px;
+    }
+
+    .right-icons-sec {
+        display: none;
+    }
+
+    .col-lg-1.logo{
+        display: none;
+    }
+
+    section.main-banner .image-wrapper .plate-img{
+        left: 0%;
+        top: 15%;
+    }
+
+    section.main-banner .image-wrapper .plate-img img {
+        width: 225px;
+    }
+
+    section.main-banner .socail-icon{
+        display: none;
+    }
+
+    section.main-banner .banner-content .middle-text h1{
+        font-size: 4.5rem;
+        margin-top: 1rem;
+        width: 92%;
+    }
+
+    section.main-banner .banner-content .text-1{
+        font-size: 1.5rem;
+    }
+
+    section.main-banner .image-wrapper .leaf{
+        top: 15%;
+        left: 42%;
+    }
+
+    .banner-content.text-center {
+        margin-top: 6rem;
+    }
+
+    section.main-banner .banner-content .bottom-text p{
+        font-size: 1.0625rem;
+        width: 75%;
+        margin: auto;
+    }
+
+    section.main-banner .image-wrapper .pizza-img{
+        top: 17%;
+    }
+
+    section.main-banner .image-wrapper .burger-img {
+        position: absolute;
+        top: 60%;
+    }
+
+    section.slider-form{
+        top: 65%;
+        width: 100%;
+        height: 38vh;
+    }
+
+    section.slider-form .contact-form{
+        background-color: transparent;
+    }
+
+    .slider-input{
+        border-bottom: 1px solid white;
+        margin-bottom: 2rem;
+
+    }
+
+    #map-icon {
+        font-size: 1.625rem;
+        color: #595959;
+        margin-top: 0;
+        position: absolute;
+        top: 10%;
+        left: 2%;
+    }
+
+    .heading-area {
+        text-align: center;
+    }
+
+    section.gallary{
+        padding: 5rem 0 0 0;
+    }
+
+    section.gallary .heading-area .heading{
+        font-size: 3.4375rem;
+    }
+
+    section.gallary .mini-services{
+        flex-direction: column;
+    }
+
+    .mini-service-card {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    section.testimonial{
+        height: 26.5rem;
+        width: 100%;
+        background-position: center;
+    }
+
+    section.pizza-corner{
+        height: 100%;
+    }
+
+    .image-wrapper {
+        height: 38rem;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+
+    .pizza-corner .image-wrapper .pizza-box {
+        position: relative;
+        width: 100%;
+        left: 5%;
+    }
+
+    .pizza-corner .image-wrapper .smoke-pic {
+        position: absolute;
+        left: 13%;
+        width: 68%;
+    }
+
+    .pizza-corner .image-wrapper .burger-img{
+        top: 62%;
+    }
+
+    .leaf-lg img {
+        width: 70%;
+    }
+
+    .left-box {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .box{
+        right: 28%;
+        top: -35%;
+    }
+
+    .right-box{
+        width: 100%;
+        height: 20rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -4rem;
+
+    }
+
+    .feature-item-wrapper{
+        left: 4%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .feature-item{
+        margin: 2rem;
+    }
+
+    .feature-item a i{
+        display: none;
+    }
+
+    section.restaurant{
+        height: 100%;
+        padding: 0rem;
+    }
+    
+    section.restaurant .res-image-wrapper .left-image {
+        width: 100%;
+        height: 26.125rem;
+        background-image: url(../image/restaurant-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .pizza-box img {
+        width: 68%;
+    }
+
+    .res-middle-content {
+        margin: 3rem 0rem;
+    }
+
+    section.restaurant .res-content .sub-heading{
+        font-size: 3rem;
+        margin-top: 1.5rem;
+    }
+
+    section.restaurant .res-content .heading{
+        font-size: 4rem;
+        opacity: .9;
+    }
+
+    section.restaurant .res-content p{
+        font-size: 1.4rem;
+    }
+
+    section.restaurant .res-button{
+        left: 36%;
+    }
+
+    .res-image-wrapper {
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+    
+    .restaurant-image-wrapper-r {
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+    }
+
+    .tomato-lg img {
+        width: 65%;
+    }
+
+    .tomato-sm img {
+        width: 55%;
+    }
+
+    section.food-review .heading .section-heading{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .food-content{
+        padding: 0rem 0rem;
+    }
+
+    .pic-gallary .food-image-wrapper{
+        position: relative;
+        column-count: 2;
+    }
+
+    .delivery-bg {
+        padding: 6rem 0rem 4rem 0rem;
+    }
+
+    section.food-delivery{
+        width: 100%;
+        height: 62.5rem;
+    }
+
+    .phone-img{
+        margin-left: 4rem;
+    }
+
+    .bike-img-sec svg{
+        width: 300px;
+    }
+
+    .bike-img-sec {
+        width: 50%;
+        position: relative;
+        left: 15rem;
+        top: -7.5rem;
+    }
+
+    .cloud-3{
+        height: 35%;
+        top: 0%;
+    }
+
+    .cloud-4 {
+        width: 10%;
+        height: 16%;
+        position: absolute;
+        left: 5%;
+        top: 27%;
+    }
+
+    .right-site-wrap {
+        margin-top: 5rem;
+    }
+
+    .content-wrap .first-heading{
+        font-size: 3rem;
+    }
+
+    .content-wrap .second-heading{
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    .text-animation{
+        margin-top: -11%;
+    }
+
+    .order-now-btn{
+        width: 30%;
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+    .navbar-light .navbar-brand img {
+        width: 50px;
+        margin-top: -12px;
+    }
+
+    section.main-banner .image-wrapper .plate-img img {
+        width: 145px;
+    }
+
+    section.main-banner .image-wrapper .leaf {
+        top: 12%;
+        left: 45%;
+    }
+
+    section.main-banner .image-wrapper .leaf img {
+        width: 100%;
+    }
+
+    section.main-banner .image-wrapper .burger-img{
+        top: 64%;
+    }
+
+    section.main-banner .image-wrapper .burger-img img{
+        width: 39%; 
+    }
+
+    section.main-banner .banner-content .text-1 {
+        font-size: 1.2rem;
+    }
+
+    section.main-banner .banner-content .middle-text h1 {
+        font-size: 4rem;
+        margin-top: 1rem;
+        width: 92%;
+        margin-bottom: 2rem;
+        line-height: 4rem;
+    }
+
+    section.slider-form {
+        top: 100%;
+        width: 100%;
+        height: 25vh;
+    }
+
+    .tomato-lg {
+        width: 10.75rem;
+        position: absolute;
+        left: 0%;
+        top: 5%;
+        transition: all .5s ease;
+    }
+
+    .leaf-lg{
+        top: 40%;
+    }
+
+    .leaf-lg img {
+        width: 50%;
+    }
+
+    .leaf-sm{
+        top: 33%;
+    }
+
+    .leaf-sm img {
+        width: 55px;
+    }
+
+    .tomato-sm{
+        left: 50%;
+        top: 20%;
+    }
+
+    .tomato-sm img {
+        width: 50%;
+    }
+
+    section.pizza-corner .main-img-wrap{
+        height: 58%;
+    }
+
+    .image-wrapper{
+        height: 25rem;
+    }
+
+    .box{
+        right: auto;
+        top: -28%;
+    } 
+
+    .left-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-box{
+        height: 35rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-item-wrapper {
+        left: 0%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item{
+        margin: 1rem;
+    }
+
+    .res-image-wrapper {
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+
+    section.restaurant .res-content .sub-heading{
+        font-size: 2.5rem;
+    }
+
+    section.restaurant .res-content .heading {
+        font-size: 2.5rem;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+
+    section.restaurant .res-content p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    section.restaurant .res-button {
+        left: 25%;
+    }
+
+    section.restaurant .res-contact{
+        flex-direction: column;
+    } 
+
+    section.restaurant .res-contact .email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.restaurant .res-contact .email i{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    section.restaurant .res-contact .email span{
+        font-size: 1rem;
+    }
+
+    section.restaurant .res-contact .phone-number{
+        margin-left: -4.5rem;
+        margin-top: .5rem;
+
+    }
+
+    section.restaurant .res-contact .phone-number i{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    section.restaurant .res-contact .phone-number span{
+        font-size: 1rem;
+    }
+
+    .restaurant-image-wrapper-r{
+        margin-left: -11rem;
+    }
+
+    .food-image-wrapper{
+        height: 73rem;
+    }
+
+    .pic-gallary .food-image-wrapper{
+        position: relative;
+        column-count: 1;
+    }
+
+    section.food-delivery {
+        width: 100%;
+        height: 53rem;
+    }
+
+    .left-site-wrapper {
+        margin-top: 10rem;
+    }
+
+    .cloud-1 {
+        width: 15%;
+        height: 20%;
+        display: block;
+        position: absolute;
+        left: 26%;
+        top: -25%;
+    }
+
+    .cloud-2{
+        left: 80%;
+        top: -15%;
+    }
+
+    .cloud-3 {
+        width: 25%;
+        height: 25%;
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -6%;
+    }
+
+    .cloud-4{
+        top: 23%;
+    }
+
+    .bike-img-sec svg{
+        width: 250px;
+    }
+
+    .phone-img{
+        width: 71%;
+        margin-left: 0rem;
+    }
+
+    .bike-img-sec{
+        left: 5rem;
+        top: -12.5rem;
+
+    }
+
+    .text-animation {
+        margin-top: -18%;
+        margin-left: 43%;
+    }
+
+    .order-now-btn {
+        width: 40%;
+        font-size: .9rem;
+        padding: .8rem;
+    }
+
+    .content-wrap {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    .content-wrap .first-heading {
+        font-size: 2rem;
+    }
+
+    .content-wrap .second-heading {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .right-site-wrap .phone-number{
+        font-size: 1rem;
+    }
+}
